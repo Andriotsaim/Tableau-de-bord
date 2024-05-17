@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SUIVI</title>
+    <link rel="stylesheet" href="~/Plugin/css/tw-elements.min.css" />
+    @*<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/static.css" asp-append-version="true" />
+    @await RenderSectionAsync("Stylespect", required: false)
+</head>
+<body>
+    <!-- Sidenav -->
+    @await RenderSectionAsync("Sidenav", required: false)
+    <!-- END Sidenav -->
+    <div id="slim-content" class="flex flex-wrap w-full">
+        @{
+            if (User.Identity.IsAuthenticated)
+            {
+                <nav class="flex flex-wrap w-full items-center justify-between border-bottom mb-3 bg-[#FBFBFB] py-2 px-3 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 lg:py-4"
+                 data-te-navbar-ref>
+                    <div class="2xl:mx-auto flex w-full">
+                        <div>
+                            <a class="mx-2 my-1 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0" href="#">
+                            </a>
+                        </div>
+                        <!-- Hamburger Toggler -->
+                        <button id="slim-toggler" class="inline-block py-2.5 text-xs font-medium leading-tight text-dark"
+                            data-te-sidenav-toggle-ref
+                            data-te-target="#sidenav"
+                            aria-controls="#sidenav"
+                            aria-haspopup="true">
+                            <span class="block [&>svg]:h-5 [&>svg]:w-5 [&>svg]:text-dark">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 24 24"
+                                 fill="currentColor"
+                                 class="h-5 w-5">
+                                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </button>
+
+                        <div class="flex basis-[100%] items-center lg:mt-0">
+                            <!-- Left  -->
+                            <ul class="mr-auto lg:mt-1 flex">
+                                <li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1">
+                                    <a asp-action="Index" asp-controller="Preview" data-te-ripple-init data-te-ripple-color="light" class="flex items-center rounded px-4 py-2 text-xs text-slate-800 bg-light-600 font-medium uppercase leading-normal shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="text-slate-800 w-5 h-5">
+                                            <path d="M14.916 2.404a.75.75 0 0 1-.32 1.011l-.596.31V17a1 1 0 0 1-1 1h-2.26a.75.75 0 0 1-.75-.75v-3.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.5a.75.75 0 0 1-.75.75h-3.5a.75.75 0 0 1 0-1.5H2V9.957a.75.75 0 0 1-.596-1.372L2 8.275V5.75a.75.75 0 0 1 1.5 0v1.745l10.404-5.41a.75.75 0 0 1 1.012.319ZM15.861 8.57a.75.75 0 0 1 .736-.025l1.999 1.04A.75.75 0 0 1 18 10.957V16.5h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1-.75-.75V9.21a.75.75 0 0 1 .361-.64Z" />
+                                        </svg>
+                                        <span class="ml-1 hidden sm:block text-slate-800">Accueil</span>
+                                    </a>
+                                </li>
+                                <li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1">
+                                    <a asp-action="Index" asp-controller="Transfert" data-te-ripple-init data-te-ripple-color="light" class="flex items-center relative rounded px-4 py-2 text-xs text-slate-800 bg-light-600 font-medium uppercase leading-normal shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="text-slate-800 w-5 h-5">
+                                            <path fill-rule="evenodd" d="M18 5.25a2.25 2.25 0 0 0-2.012-2.238A2.25 2.25 0 0 0 13.75 1h-1.5a2.25 2.25 0 0 0-2.238 2.012c-.875.092-1.6.686-1.884 1.488H11A2.5 2.5 0 0 1 13.5 7v7h2.25A2.25 2.25 0 0 0 18 11.75v-6.5ZM12.25 2.5a.75.75 0 0 0-.75.75v.25h3v-.25a.75.75 0 0 0-.75-.75h-1.5Z" clip-rule="evenodd" />
+                                            <path fill-rule="evenodd" d="M3 6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H3Zm6.874 4.166a.75.75 0 1 0-1.248-.832l-2.493 3.739-.853-.853a.75.75 0 0 0-1.06 1.06l1.5 1.5a.75.75 0 0 0 1.154-.114l3-4.5Z" clip-rule="evenodd" />
+                                        </svg>
+                                        <span class="ml-1 hidden sm:block text-slate-800">Supervision</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="flex items-center justify-center">
+                                <button type="button" data-te-ripple-init data-te-ripple-color="light" class="flex items-centermr-3 cursor-default inline-block rounded px-6 pb-2 pt-2.5 text-lg font-semibold uppercase">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                        <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="mr-2 ml-1"> @User.Identity.Name</span>
+                                </button>
+                                <a id="logoutLink" href="#" type="button" data-te-ripple-init data-te-ripple-color="light" class="flex items-center rounded-full bg-danger px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-danger-600 hover:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.3),0_4px_18px_0_rgba(220,76,100,0.2)] focus:bg-danger-600 focus:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.3),0_4px_18px_0_rgba(220,76,100,0.2)] focus:outline-none focus:ring-0 active:bg-danger-700 active:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.3),0_4px_18px_0_rgba(220,76,100,0.2)] ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-white">
+                                        <path fill-rule="evenodd" d="M3 4.25A2.25 2.25 0 015.25 2h5.5A2.25 2.25 0 0113 4.25v2a.75.75 0 01-1.5 0v-2a.75.75 0 00-.75-.75h-5.5a.75.75 0 00-.75.75v11.5c0 .414.336.75.75.75h5.5a.75.75 0 00.75-.75v-2a.75.75 0 011.5 0v2A2.25 2.25 0 0110.75 18h-5.5A2.25 2.25 0 013 15.75V4.25z" clip-rule="evenodd" />
+                                        <path fill-rule="evenodd" d="M6 10a.75.75 0 01.75-.75h9.546l-1.048-.943a.75.75 0 111.004-1.114l2.5 2.25a.75.75 0 010 1.114l-2.5 2.25a.75.75 0 11-1.004-1.114l1.048-.943H6.75A.75.75 0 016 10z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="mr-2 hidden sm:block text-white ml-1"> Déconnexion</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            }
+        }
+        <div class="relative w-full">
+            <main role="main">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/Plugin/js/tw-elements.umd.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

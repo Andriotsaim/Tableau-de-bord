@@ -1,0 +1,231 @@
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\appsettings.Development.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\appsettings.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\package-lock.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\package.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\SUIVI.staticwebassets.runtime.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\SUIVI.exe
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\SUIVI.deps.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\SUIVI.runtimeconfig.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\SUIVI.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\SUIVI.pdb
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Google.Protobuf.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Humanizer.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\MySql.Data.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\System.CodeDom.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\System.Text.Json.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\ZstdSharp.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.csproj.AssemblyReference.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.GeneratedMSBuildEditorConfig.editorconfig
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.AssemblyInfoInputs.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.AssemblyInfo.cs
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.csproj.CoreCompileInputs.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.MvcApplicationPartsAssemblyInfo.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.RazorAssemblyInfo.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.RazorAssemblyInfo.cs
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\staticwebassets.build.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\staticwebassets.development.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\scopedcss\bundle\SUIVI.styles.css
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\scopedcss\projectbundle\SUIVI.bundle.scp.css
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.csproj.CopyComplete
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\refint\SUIVI.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.pdb
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\SUIVI.genruntimeconfig.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT\obj\Debug\net6.0\ref\SUIVI.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\appsettings.Development.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\appsettings.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.staticwebassets.runtime.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.exe
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.deps.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.runtimeconfig.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.pdb
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Google.Protobuf.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Humanizer.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\MySql.Data.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.CodeDom.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Text.Json.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\ZstdSharp.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.csproj.AssemblyReference.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.GeneratedMSBuildEditorConfig.editorconfig
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.AssemblyInfoInputs.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.AssemblyInfo.cs
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.csproj.CoreCompileInputs.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.MvcApplicationPartsAssemblyInfo.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.RazorAssemblyInfo.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.RazorAssemblyInfo.cs
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\staticwebassets.build.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\staticwebassets.development.json
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\scopedcss\bundle\SUIVI.styles.css
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\scopedcss\projectbundle\SUIVI.bundle.scp.css
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.csproj.CopyComplete
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\refint\SUIVI.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.pdb
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.genruntimeconfig.cache
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\ref\SUIVI.dll
+C:\APPLICATION\suivi\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\package.json
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\appsettings.json
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\package.json
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.staticwebassets.runtime.json
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.exe
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.deps.json
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.runtimeconfig.json
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\SUIVI.pdb
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Humanizer.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.csproj.AssemblyReference.cache
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.AssemblyInfoInputs.cache
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.AssemblyInfo.cs
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.csproj.CoreCompileInputs.cache
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.RazorAssemblyInfo.cache
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.RazorAssemblyInfo.cs
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\staticwebassets\msbuild.SUIVI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\staticwebassets\msbuild.build.SUIVI.props
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SUIVI.props
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SUIVI.props
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\scopedcss\bundle\SUIVI.styles.css
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\scopedcss\projectbundle\SUIVI.bundle.scp.css
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.csproj.CopyComplete
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\refint\SUIVI.dll
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.pdb
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\SUIVI.genruntimeconfig.cache
+C:\Users\SAIM\Desktop\Andriot\TableauDebord\SUIVI LOT - Copy\obj\Debug\net6.0\ref\SUIVI.dll

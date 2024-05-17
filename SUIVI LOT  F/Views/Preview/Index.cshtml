@@ -1,0 +1,199 @@
+﻿@model IEnumerable<SUIVI.Models.AllModels.EnseigneModel>
+
+@section Stylespect {
+    <style>
+        * {
+            font-size: 13px;
+        }
+    </style>
+}
+
+@section Sidenav {
+    <!-- Sidenav -->
+    <nav id="sidenav"
+     class="group fixed left-[0.01rem] top-0 z-[1035] h-screen w-60 -translate-x-full overflow-hidden bg-white shadow-[0_4px_12px_0_rgba(0,0,0,0.07),_0_2px_4px_rgba(0,0,0,0.05)] data-[te-sidenav-slim='true']:hidden data-[te-sidenav-slim-collapsed='true']:w-[77px] data-[te-sidenav-slim='true']:w-[77px] data-[te-sidenav-hidden='false']:translate-x-0 bg-zinc-800 [&[data-te-sidenav-slim-collapsed='true'][data-te-sidenav-slim='false']]:hidden [&[data-te-sidenav-slim-collapsed='true'][data-te-sidenav-slim='true']]:[display:unset]"
+     data-te-sidenav-init
+     data-te-sidenav-width="180"
+     data-te-sidenav-hidden="false"
+     data-te-sidenav-mode-breakpoint-over="0"
+     data-te-sidenav-mode-breakpoint-side="sm"
+     data-te-sidenav-content="#slim-content"
+     data-te-sidenav-accordion="true">
+        <a class="mb-3 flex items-center justify-center border-b-2 border-gray-700 py-7 outline-none" href="#" data-te-ripple-init data-te-ripple-color="primary">
+            <img id="SAIM" class="mr-2 w-6" src="~/images/letterS.png" alt="SAIM" draggable="false" />
+            <span>SAIM</span>
+        </a>
+        <h1 class="text-center font-bold text-white">ACCUEIL</h1>
+        <br/>
+        <ul id="enseignefilter" class="relative m-0 list-none px-[0.2rem]" data-te-sidenav-menu-ref>
+            <li class="relative">
+                <label class="flex h-12 cursor-pointer items-center truncate rounded-[5px] px-6 py-4 text-[0.875rem] outline-none transition duration-300 ease-linear data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none text-gray-300 hover:bg-white/10 focus:bg-white/10 active:bg-white/10" data-te-sidenav-link-ref>
+                    <div class="relative">
+                        <input type="checkbox" class="hidden check-all" id="toggle" checked />
+                        <div class="w-10 h-6 bg-gray-400 rounded-full shadow-inner toggle-switch"></div>
+                        <div class="absolute inset-y-0 left-0 w-6 h-6 bg-white rounded-full shadow toggle-indicator"></div>
+                    </div>
+                    <span class="ml-4 group-[&[data-te-sidenav-slim-collapsed='true']]:data-[te-sidenav-slim='false']:hidden" data-te-sidenav-slim="false">
+                        Toutes
+                    </span>
+                </label>
+            </li>
+             @foreach (var item in Model)
+            {
+                <li class="relative">
+                    <label for="@item.Name" class="flex h-12 cursor-pointer items-center truncate rounded-[5px] px-6 py-4 text-[0.875rem] outline-none transition duration-300 ease-linear data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none text-gray-300 hover:bg-white/10 focus:bg-white/10 active:bg-white/10" data-te-sidenav-link-ref>
+                        @*<span class="mr-4 [&>svg]:h-4 [&>svg]:w-4 [&>svg]:text-gray-400 dark:[&>svg]:text-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+                <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+                </svg>
+                </span>*@
+                        <span class="ml-4 group-[&[data-te-sidenav-slim-collapsed='true']]:data-[te-sidenav-slim='false']:hidden" data-te-sidenav-slim="false">
+                            <input id="@item.Name" name="@item.Name" active type="checkbox" checked value="true" class="pcheck relative float-left -ml-[1.5rem] mr-[6px] mt-[0.15rem] h-[1.125rem] w-[1.125rem] appearance-none rounded-[0.25rem] border-[0.125rem] border-solid border-neutral-300 outline-none before:pointer-events-none before:absolute before:h-[0.875rem] before:w-[0.875rem] before:scale-0 before:rounded-full before:bg-transparent before:opacity-0 before:shadow-[0px_0px_0px_13px_transparent] before:content-[''] checked:border-primary checked:bg-primary checked:before:opacity-[0.16] checked:after:absolute checked:after:-mt-px checked:after:ml-[0.25rem] checked:after:block checked:after:h-[0.8125rem] checked:after:w-[0.375rem] checked:after:rotate-45 checked:after:border-[0.125rem] checked:after:border-l-0 checked:after:border-t-0 checked:after:border-solid checked:after:border-white checked:after:bg-transparent checked:after:content-[''] hover:cursor-pointer hover:before:opacity-[0.04] hover:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:shadow-none focus:transition-[border-color_0.2s] focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-[0.875rem] focus:after:w-[0.875rem] focus:after:rounded-[0.125rem] focus:after:content-[''] checked:focus:before:scale-100 checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] checked:focus:after:-mt-px checked:focus:after:ml-[0.25rem] checked:focus:after:h-[0.8125rem] checked:focus:after:w-[0.375rem] checked:focus:after:rotate-45 checked:focus:after:rounded-none checked:focus:after:border-[0.125rem] checked:focus:after:border-l-0 checked:focus:after:border-t-0 checked:focus:after:border-solid checked:focus:after:border-white checked:focus:after:bg-transparent " />
+                            <span class="inline-block pl-[0.15rem] hover:cursor-pointer" for="@item.Name">@Html.DisplayFor(modelItem => item.Name)</span>
+                        </span>
+                    </label>
+                </li>
+            }
+        </ul>
+    </nav>
+    <!-- Sidenav -->
+}
+
+
+<section class="gradient-form h-full px-3">
+    <div class="py-2">
+        <div class="block rounded-lg bg-white text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
+            <div class="border-b-2 font-semibold text-xl border-[#0000002d] border-neutral-100 px-6 py-3">
+                <form method="post" asp-action="Suivi">
+                    <div class="flex flex-wrap w-full rounded justify-center">
+                        <div class="flex flex-wrap justify-center">
+                            <div class="relative mb-3 m-2" id="datepicker-with-limits-From" data-te-input-wrapper-init>
+                                <input type="text" id="datepickerFrom" name="dateFrom" data-te-datepicker-toggle-ref class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 pt-[0.56rem] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" placeholder="Date Début" />
+                                <label for="datepickerFrom" class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none">Date Début</label>
+                            </div>
+                            <div class="relative mb-3 m-2" id="datepicker-with-limits-To" data-te-input-wrapper-init>
+                                <input type="text" id="datepickerTo" name="dateTo" data-te-datepicker-toggle-ref
+                                    class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 pt-[0.56rem] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                    placeholder="Date Fin" />
+                                <label for="datepickerTo" class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none ">Date Fin</label>
+                            </div>
+                        </div>
+                        <div class="space-x-4 my-2 mb-3 flex justify-center">
+                            <button id="loadDataButton" type="submit" class="generate flex bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                </svg>
+                                <span class="mx-2" id="buttonText">Rechercher</span>
+                                <svg class="search-button animate-spin opacity-0 h-6 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.842 3.009 7.979l2.001-2.688z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="p-2 sm:p-4 w-full items-center justify-center text-neutral-800 rounded-lg bg-white shadow-lg overflow-x-auto sm:overflow-x-auto md:overflow-x-auto lg:overflow-hidden w-full">
+                <div id="accordion">
+                    <div class="noremove rounded-t-lg border border-neutral-200 @*hidden*@ bg-gray-400">
+                        <h2 class="mb-0">
+                            <button class="group flex flex-wrap w-full  items-center bg-info rounded-t-[5px] border-0 px-4 py-3 text-left text-white-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white  [&:not([data-te-collapse-collapsed])]:text-white [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+                                    type="button"
+                                    data-te-collapse-init
+                                    data-te-target="#collapseOnes"
+                                    aria-expanded="true"
+                                    aria-controls="collapseOnes">
+                                <h5 class="font-bold text-white tracking-wide w-[150px]"></h5>
+                                <div class="ml-auto h-18 w-50 flex-wrap sm:flex justify-center gap-2 sm:w-50 overflow-auto">
+                                    <span style="width: 88px" title="Nombre de lots (jour)" class="inline-block whitespace-nowrap rounded-full bg-neutral-50 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-neutral-600">LOTS(jour)</span>
+                                    <span style="width: 70px" title="Nombre de lots" class="inline-block whitespace-nowrap rounded-full bg-neutral-50 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-neutral-600">
+                                        LOTS
+                                    </span>
+                                    <span style="width: 106px" title="Nombre de lots traités" class="inline-block whitespace-nowrap rounded-full bg-success-200 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-neutral-600">
+                                        LOTS TRAITES
+                                    </span>
+                                    <span style="width: 70px" title="Nombre de plis" class="hidden sm:inline-block  whitespace-nowrap rounded-full bg-secondary-200 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-success-700">
+                                        PLIS
+                                    </span>
+                                    <span style="width: 108px" title="Nombre de plis non traités" class="hidden sm:inline-block whitespace-nowrap rounded-full bg-danger-200 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-warning-800">
+                                        NON TRAITES
+                                    </span>
+                                    <span style="width: 90px" title="Nombre de plis traités" class="hidden sm:inline-block whitespace-nowrap rounded-full bg-success-200 px-[0.65em] pb-[0.30em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-neutral-600">
+                                        TRAITES
+                                    </span>
+                                    <span style="width: 75px" title="Nombre de plis rejetés" class="hidden sm:inline-block whitespace-nowrap rounded-full bg-warning-200 px-[0.65em] pb-[0.30em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-danger-700">
+                                        REJETS
+                                    </span>
+                                    <span style="width: 110px" title="Nombre de lot supprimé" class="hidden sm:inline-block whitespace-nowrap rounded-full bg-danger-200 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-warning-800">
+                                        LOTS SUPPRIMES
+                                    </span>
+                                    <span style="width: 64px" title="En cours de reconnaissance" class="inline-block whitespace-nowrap rounded-full bg-neutral-50 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-neutral-600">
+                                        RECO
+                                    </span>
+                                </div>
+                                <span class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none">
+                                </span> 
+                            </button>
+                        </h2>
+                    </div>
+                    @*
+                    <div class="border border-t-0 border-neutral-200 bg-white">
+                        <h2 class="mb-0">
+                            <button class="group relative flex w-full items-center rounded-none border-0 bg-white px-4 py-3 text-left transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] "
+                                    type="button"
+                                    data-te-collapse-init
+                                    data-te-collapse-collapsed
+                                    data-te-target="#collapseTwo"
+                                    aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                <h5 class="font-bold tracking-wide">Enseigne TDP</h5>
+                                <span class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke-width="1.5"
+                                         stroke="currentColor"
+                                         class="h-6 w-6">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                </span>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo"
+                             class="!visible hidden"
+                             data-te-collapse-item
+                             aria-labelledby="headingTwo"
+                             data-te-parent="#accordion">
+                            <div class="px-5 py-4">
+                                TDP
+                            </div>
+                        </div>
+                    </div>
+                    *@
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-neutral-200 text-center lg:text-left rounded-sm">
+        <div class="p-4 text-left text-neutral-700">
+            <label class="font-bold">
+                Total des lots traités:
+                <span id="lotstraites" class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-sm font-medium text-green-700 ring-1 ring-inset ring-green-600/20">0</span>
+            </label>
+            <label class="font-bold">
+                Total des plis traités:
+                <span id="plistraites" class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-sm font-medium text-green-700 ring-1 ring-inset ring-green-600/20">0</span>
+            </label>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/Plugin/js/cdn.jsdelivr.js"></script>
+    <script src="~/js/Preview.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

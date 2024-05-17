@@ -1,0 +1,46 @@
+
+a.navbar-brand[b-amhf2cm7kg] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-amhf2cm7kg] {
+  color: #0077cc;
+}
+
+.btn-primary[b-amhf2cm7kg] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-amhf2cm7kg], .nav-pills .show > .nav-link[b-amhf2cm7kg] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-amhf2cm7kg] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-amhf2cm7kg] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-amhf2cm7kg] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-amhf2cm7kg] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-amhf2cm7kg] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

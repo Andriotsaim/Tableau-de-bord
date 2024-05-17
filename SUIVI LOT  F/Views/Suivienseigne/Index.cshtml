@@ -1,0 +1,175 @@
+﻿@model IEnumerable<SUIVI.Models.AllModels.EnseigneModel>
+@{
+    ViewData["Title"] = "Suivi Enseigne";
+}
+
+
+@section Stylespect {
+    <link rel="stylesheet" href="~/Plugin/css/cdn.datatables.net_1.13.5_css_jquery.dataTables.min.css" />
+    <style>
+        * {
+            font-size: 14px;
+        }
+    </style>
+}
+
+@section Sidenav {
+    <!-- Sidenav -->
+    <nav id="sidenav"
+     class="group fixed left-[0.01rem] top-0 z-[1035] h-screen w-60 -translate-x-full overflow-hidden bg-white shadow-[0_4px_12px_0_rgba(0,0,0,0.07),_0_2px_4px_rgba(0,0,0,0.05)] data-[te-sidenav-slim='true']:hidden data-[te-sidenav-slim-collapsed='true']:w-[77px] data-[te-sidenav-slim='true']:w-[77px] data-[te-sidenav-hidden='false']:translate-x-0 bg-zinc-800 [&[data-te-sidenav-slim-collapsed='true'][data-te-sidenav-slim='false']]:hidden [&[data-te-sidenav-slim-collapsed='true'][data-te-sidenav-slim='true']]:[display:unset]"
+     data-te-sidenav-init
+     data-te-sidenav-width="180"
+     data-te-sidenav-hidden="false"
+     data-te-sidenav-mode-breakpoint-over="0"
+     data-te-sidenav-mode-breakpoint-side="sm"
+     data-te-sidenav-content="#slim-content"
+     data-te-sidenav-accordion="true">
+        <a class="mb-3 flex items-center justify-center border-b-2 border-gray-700 py-7 outline-none" href="#" data-te-ripple-init data-te-ripple-color="primary">
+            <img id="SAIM" class="mr-2 w-6" src="~/images/letterS.png" alt="SAIM" draggable="false" />
+            <span>SAIM</span>
+        </a>
+        <ul id="enseignefilter" class="relative m-0 list-none px-[0.2rem]" data-te-sidenav-menu-ref>
+            <li class="relative">
+                <label class="flex h-12 cursor-pointer items-center truncate rounded-[5px] px-6 py-4 text-[0.875rem] outline-none transition duration-300 ease-linear data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none text-gray-300 hover:bg-white/10 focus:bg-white/10 active:bg-white/10" data-te-sidenav-link-ref>
+                    <span class="relative">
+                        <input type="checkbox" class="hidden check-all" id="toggle" checked />
+                        <span class="w-10 h-6 bg-gray-400 rounded-full shadow-inner toggle-switch"></span>
+                        <span class="absolute inset-y-0 left-0 w-6 h-6 bg-white rounded-full shadow toggle-indicator"></span>
+                    </span>
+                    <span class="ml-4 group-[&[data-te-sidenav-slim-collapsed='true']]:data-[te-sidenav-slim='false']:hidden" data-te-sidenav-slim="false">
+                        Toutes
+                    </span>
+                </label>
+            </li>
+            @foreach (var item in Model)
+            {
+                <li class="relative">
+                    <label for="@item.Name" class="flex h-12 cursor-pointer items-center truncate rounded-[5px] px-6 py-4 text-[0.875rem] outline-none transition duration-300 ease-linear data-[te-sidenav-state-active]:text-inherit data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none text-gray-300 hover:bg-white/10 focus:bg-white/10 active:bg-white/10" data-te-sidenav-link-ref>
+                        @*<span class="mr-4 [&>svg]:h-4 [&>svg]:w-4 [&>svg]:text-gray-400 dark:[&>svg]:text-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+                <path stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+                </svg>
+                </span>*@
+                        <span class="ml-4 group-[&[data-te-sidenav-slim-collapsed='true']]:data-[te-sidenav-slim='false']:hidden" data-te-sidenav-slim="false">
+                            <input id="@item.Name" name="@item.Name" active type="checkbox" checked value="true" class="pcheck relative float-left -ml-[1.5rem] mr-[6px] mt-[0.15rem] h-[1.125rem] w-[1.125rem] appearance-none rounded-[0.25rem] border-[0.125rem] border-solid border-neutral-300 outline-none before:pointer-events-none before:absolute before:h-[0.875rem] before:w-[0.875rem] before:scale-0 before:rounded-full before:bg-transparent before:opacity-0 before:shadow-[0px_0px_0px_13px_transparent] before:content-[''] checked:border-primary checked:bg-primary checked:before:opacity-[0.16] checked:after:absolute checked:after:-mt-px checked:after:ml-[0.25rem] checked:after:block checked:after:h-[0.8125rem] checked:after:w-[0.375rem] checked:after:rotate-45 checked:after:border-[0.125rem] checked:after:border-l-0 checked:after:border-t-0 checked:after:border-solid checked:after:border-white checked:after:bg-transparent checked:after:content-[''] hover:cursor-pointer hover:before:opacity-[0.04] hover:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:shadow-none focus:transition-[border-color_0.2s] focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-[0.875rem] focus:after:w-[0.875rem] focus:after:rounded-[0.125rem] focus:after:content-[''] checked:focus:before:scale-100 checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] checked:focus:after:-mt-px checked:focus:after:ml-[0.25rem] checked:focus:after:h-[0.8125rem] checked:focus:after:w-[0.375rem] checked:focus:after:rotate-45 checked:focus:after:rounded-none checked:focus:after:border-[0.125rem] checked:focus:after:border-l-0 checked:focus:after:border-t-0 checked:focus:after:border-solid checked:focus:after:border-white checked:focus:after:bg-transparent " />
+                            <span class="inline-block pl-[0.15rem] hover:cursor-pointer" for="@item.Name">@Html.DisplayFor(modelItem => item.Name)</span>
+                        </span>
+                    </label>
+                </li>
+            }
+        </ul>
+    </nav>
+    <!-- Sidenav -->
+}
+
+
+    <section class="gradient-form h-full px-3">
+        <div class="py-2">
+            <div class="block rounded-lg bg-white text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
+                <div class="border-b-2 font-semibold text-xl border-[#0000002d] border-neutral-100 px-6 py-3">
+                    <form method="post" asp-action="Suivi">
+                        <div class="flex flex-wrap w-full rounded justify-center">
+                            <div class="flex flex-wrap justify-center">
+                                <div class="relative mb-3 m-2" id="datepicker-with-limits-From" data-te-input-wrapper-init>
+                                    <input type="text" id="datepickerFrom" name="dateFrom" data-te-datepicker-toggle-ref class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 pt-[0.56rem] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" placeholder="Date Début" />
+                                    <label for="datepickerFrom" class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none">Date Début</label>
+                                </div>
+                                <div class="relative mb-3 m-2" id="datepicker-with-limits-To" data-te-input-wrapper-init>
+                                    <input type="text" id="datepickerTo" name="dateTo" data-te-datepicker-toggle-ref
+                                       class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 pt-[0.56rem] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                       placeholder="Date Fin" />
+                                    <label for="datepickerTo" class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none ">Date Fin</label>
+                                </div>
+                            </div>
+                            <div class="space-x-4 my-2 mb-3 flex justify-center">
+                                <button id="loadDataButton" type="submit" class="generate flex bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                    </svg>
+                                    <span class="mx-2" id="buttonText">Rechercher</span>
+                                    <svg class="search-button animate-spin opacity-0 h-6 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.842 3.009 7.979l2.001-2.688z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="p-4 sm:p-6 w-full items-center justify-center text-neutral-800 rounded-lg bg-white shadow-lg overflow-x-auto sm:overflow-x-auto md:overflow-x-auto lg:overflow-hidden w-full">
+                    <table id="datatableid" class="table-striped row-border text-sm font-light" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Date</th>
+                                <th>Enseignes</th>
+                                <th>Lots</th>
+                                <th>Plis</th>
+                                <th>Plis Rejetés</th>
+                                <th>Plis saisis</th>
+                                <th>Plis Non saisis</th>
+                                @*<th>Docs dist</th>
+                            <th>Docs dist traités</th>
+                            <th>Docs dist Rejetés</th>
+                            <th>Docs dist nontraités</th>*@
+                                <th>Export</th>
+                                <th>Détails</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div id="detailModal" class="fixed inset-0 flex mt-2 sm:mt-6 justify-center z-50 hidden" style="z-index: 1040">
+            <div class="modal-overlay fixed inset-0 bg-gray-900 opacity-50"></div>
+            <div class="modal-container bg-white w-full sm:w-full md:w-11/12 lg:w-10/12 mx-1 mb-3 sm:mb-6 rounded shadow-lg z-50">
+                <!-- Contenu de la modal -->
+                <button id="closeModal" class="close-button bg-danger-500 text-white rounded-full px-2 m-3 float-right">X</button>
+                <div class="flex flex-wrap w-full border-b-2 justify-center overflow-auto">
+                    <div class="flex items-center mb-4 p-2 space-x-2">
+                        <label for="searchLotIds" class="text-sm font-medium">LotId :</label>
+                        <input type="text" id="searchLotIds" class="rounded-md px-2 py-1 bg-gray-200 order-gray-300">
+                    </div>
+                    <div class="flex items-center mb-4 p-2 space-x-2">
+                        <label for="searchOpex" class="text-sm font-medium">N Opex :</label>
+                        <input type="text" id="searchOpex" class="rounded-md px-2 py-1 bg-gray-200 border-gray-300">
+                    </div>
+                    <div class="flex items-center mb-4 p-2 space-x-2">
+                        <label for="searchOperateur" class="text-sm font-medium">Opérateur :</label>
+                        <input type="text" id="searchOperateur" class="rounded-md px-2 py-1 bg-gray-200 border-gray-300">
+                    </div>
+                </div>
+                <div class="modal-content overflow-y-auto py-4 text-left px-6" style="height: 80%;">
+                    <div class="inline-block min-w-full py-2" style="height:90% !important">
+                        <table class="table-striped row-border text-sm font-light min-w-full overflow-y-auto">
+                            <thead class="bg-white font-medium dark:border-neutral-500">
+                                <tr>
+                                    <th scope="col" class="px-6 py-4">LotId</th>
+                                    <th scope="col" class="px-6 py-4">N Opex</th>
+                                    <th scope="col" class="px-6 py-4">Date Début</th>
+                                    <th scope="col" class="px-6 py-4">Date Fin</th>
+                                    <th scope="col" class="px-6 py-4">Durée</th>
+                                    <th scope="col" class="px-6 py-4">Opérateur</th>
+                                </tr>
+                            </thead>
+                            <tbody id="detailsContent"></tbody>
+                        </table>
+                        <div id="noResults" class="hidden p-4 text-center">Aucune donnée ne correspond.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    @section Scripts {
+    <script src="~/Plugin/js/cdn.datatables.net_1.13.5_js_jquery.dataTables.min.js"></script>
+    <script src="~/Plugin/js/cdn.jsdelivr.js"></script>
+    <script src="~/js/Suivi.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}
+
+
